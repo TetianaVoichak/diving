@@ -1,0 +1,123 @@
+/*this option will work if a screen is 1200px and less*/
+@media (max-width: 1599px) {
+  .video-philippine,
+  .group1-photo1,
+  .diving-photos-img,
+  .group3-photo1 {
+    width: 100%;
+  }
+
+  .video-philippine2,
+  .img-diving-philippines-png,
+  .img-diving-comm-png,
+  .img-tour-philippines-png {
+    width: 100%;
+  }
+  .img-diving-community,
+  .img-diving-philippines,
+  .text-philippines-tour {
+    margin-right: 200px;
+  }
+  .img-philippine-island-png {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .img-diving-philippines {
+    margin-right: 50px;
+  }
+  .text-philippines {
+    margin-right: 200px;
+  }
+  .title-philippines {
+    line-height: 30px;
+  }
+  .contacts-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footer-logo {
+    width: 15%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    left: 50px;
+  }
+  .footer-logo {
+  }
+  .diving-club {
+    margin-left: 100px;
+  }
+  .img-diving-philippines {
+    margin-right: 20px;
+  }
+
+  .img-diving-comm-png {
+    margin-left: 20px;
+  }
+  .services-dcc-top,
+  .services-dcc-down {
+    margin-left: 100px;
+  }
+  .title-philippine {
+    margin: 120px auto 0px 100px;
+  }
+
+  .philippine-island-main {
+    margin: 100px 180px auto 100px;
+  }
+  .philippine-foto {
+    margin-left: 50px;
+  }
+
+  .philippine-menu {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .line2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .blog-menu-video {
+    margin: 100px 200px auto 100px;
+  }
+
+  .diving-photo-title {
+    padding: 120px 0 0px 200px;
+  }
+
+  .photos-group-1 {
+    margin-left: 100px;
+  }
+  .next-photo {
+    margin-top: 20px;
+  }
+
+  .contacts {
+    margin-top: 100px;
+    margin-left: 100px;
+ 
+}
+
+.contacts-area-form {
+  margin-left: 53px;
+
+}
+
+.footer-information {
+   margin-left: 20px;
+}
+}
+
+
+@media (max-width: 840px) {
+}
+
+@media (max-width: 375px) {
+}
