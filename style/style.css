@@ -1,0 +1,637 @@
+a {
+  text-decoration: none;
+  color: inherit; /* будет брать для ссылки цвет родителя, значение наследуется*/
+}
+h2 {
+  font-weight: normal;
+  font-style: normal;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.body {
+  font-family: "Prompt", sans-serif;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Prompt", sans-serif;
+  position: absolute;
+
+  left: 200px;
+  right: 200px;
+  top: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  top: 45px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 50px;
+}
+.logo {
+  font-size: 16px;
+}
+
+.logo-services {
+}
+
+.promo {
+  background-image: url(../images/main-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 180px;
+  margin: 0 auto;
+}
+
+.promo_inner {
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.name {
+  font-family: "Prompt", sans-serif;
+  max-width: 626px;
+  font-weight: 600;
+  font-size: 200px;
+  line-height: 230px;
+  margin: 0 auto 0 190px;
+}
+
+.promo-info {
+  margin: 20px auto 20px 200px;
+  max-width: 223px;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 398px;
+}
+
+.promo-service-btn {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border-color: #fff;
+  background: none;
+  padding: 10px 35px 11px 35px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  margin: 60px auto auto 200px;
+}
+
+.icon-service {
+  background-image: url("../images/icon-service.png");
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+.diving-club {
+  margin-top: 120px;
+  margin-left: 200px;
+}
+
+.name-diving-club {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100px;
+  color: #000;
+  margin-bottom: 100px;
+}
+
+.class-diving {
+  display: flex;
+}
+
+.text-philippines {
+  margin-left: 40px;
+  max-width: 450px;
+}
+
+.line {
+  border-bottom: 1px solid #6f7782;
+  opacity: 50%;
+  max-width: 580px;
+}
+.number-p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6f7782;
+}
+
+.title-philippines {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000;
+  margin-top: 25px;
+}
+
+.text-philippines-info {
+  max-width: 450px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+
+.philippines-btn-request {
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border-color: #fff;
+  background: #08273d;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  padding: 14px 42px 14px 42px;
+  margin-top: 30px;
+}
+
+.class-community {
+  display: flex;
+  margin-top: 70px;
+}
+
+.text-community {
+
+}
+
+.title-community {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000;
+  margin-top: 25px;
+}
+
+.text-community-info {
+  max-width: 450px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+
+.community-btn-request {
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border-color: #fff;
+  background: #08273d;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  padding: 14px 42px 14px 42px;
+  margin-top: 30px;
+}
+
+.img-diving-comm-png {
+  margin-left: 80px;
+}
+
+.class-philippines-tour {
+  display: flex;
+}
+
+.text-philippines-tour {
+  margin-left: 40px;
+  max-width: 450px;
+}
+
+.title-philippines-tour {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000;
+  margin-top: 25px;
+}
+
+.text-philippines-info-tour {
+  max-width: 450px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+
+.philippines-tour-btn-request {
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border-color: #fff;
+  background: #08273d;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  padding: 14px 42px 14px 42px;
+  margin-top: 30px;
+}
+
+.services-dcc {
+  margin-top: 120;
+  background: #08273d;
+  color: #fff;
+  padding-bottom: 120px;
+}
+
+.title-services-dcc {
+  font-family: "Prompt";
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100px;
+  padding-top: 120px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.services-dcc-top,
+.services-dcc-down {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.services-dcc-diving {
+  border-width: 2px;
+  border-color: #6f7782;
+  border-style: solid;
+  padding: 50px 44px 0 55px;
+}
+
+.img-services-dcc-diving-png,
+.img-services-dcc-excursions-png,
+.img-services-dcc-tours-png,
+.img-services-dcc-lodging-png {
+/* max-width: 500px;
+  margin-top: 50px;
+  margin-left: 55px;
+  margin-right: 44px;*/
+  width: 100%;
+}
+
+.services-dcc-diving-title,
+.services-dcc-excursions-title,
+.services-dcc-tours-title,
+.services-dcc-lodging-title {
+  font-family: "Prompt";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  padding-top: 30px;
+  margin-left: 55px;
+  margin-bottom: 20px;
+}
+.menu-service-links {
+  max-width: 253px;
+  margin-left: 55px;
+  margin-bottom: 50px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.img-frame-png {
+  margin-right: 5px;
+}
+
+.services-dcc-excursions {
+  border-width: 2px;
+  border-color: #6f7782;
+  border-style: solid;
+  border-left: none;
+  padding: 50px 44px 0 55px;
+}
+
+.services-dcc-tours {
+  border-width: 2px;
+  border-color: #6f7782;
+  border-style: solid;
+  border-top: none;
+  padding: 50px 44px 0 55px;
+}
+.services-dcc-lodging {
+  border-width: 2px;
+  border-color: #6f7782;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  padding: 50px 44px 0 55px;
+}
+
+.title-philippine {
+  font-family: "Prompt";
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100px;
+  margin: 120px auto 0px 200px;
+}
+
+.philippine-island-main {
+  display: flex;
+  margin: 100px 200px auto 200px;
+  justify-content: space-between;
+}
+.philippine-menu {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.05px;
+  /*margin: 0px auto 100px 200px;*/
+}
+
+.class-philippines-tour
+{
+margin-top: 70px ;
+}
+
+.line2 {
+  border-bottom: 2px solid #08273d;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  max-width: 500px;
+}
+
+.philippine-menu-punkt {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.img-group-png {
+  margin-right: 0px;
+}
+
+.philippine-foto {
+  margin-left: 150px;
+}
+.img-philippine-island-png {
+  margin-right: 76px;
+}
+.blog {
+  background-color: #08273d;
+  color: #fff;
+  margin-top: 105px;
+}
+
+.blog-title {
+  font-family: "Prompt";
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100px;
+  padding: 120px 0 100px 200px;
+}
+
+.blog-menu-video {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 200px auto 200px
+}
+
+.blog-video1 {
+  height: 300px;
+  margin-bottom: 60px;
+}
+.blog-video2 {
+  height: 300px;
+  margin-bottom: 60px;
+  margin-left: 40px;
+}
+.video-philippine
+{
+
+ 
+}
+
+.video-philippine2
+{
+ 
+}
+.video-btn-all {
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #fff;
+  border-color: #fff;
+  background: #08273d;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  padding: 13px 28px 14px 33px;
+  margin-bottom: 120px;
+  margin-left: 200px;
+}
+
+.diving-photos {
+}
+
+.diving-photo-title {
+  font-family: "Prompt";
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100px;
+  padding: 120px 0 100px 200px;
+}
+
+.diving-photos-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photos-group-1 {
+  margin-right: 20px;
+  margin-left: 200px;
+}
+.group1-photo1,
+.group3-photo1 {
+  margin-bottom: 20px;
+}
+
+.photos-group-3 {
+  margin-right: 200px;
+  margin-left: 20px;
+}
+
+.next-photo {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-aktiv {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #08273d;
+  margin-left: 5px;
+}
+
+.page-next {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #6f7782;
+  margin-right: 5px;
+}
+
+.page {
+  padding-top: 3px;
+}
+
+.contacts {
+  margin-top: 120px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.contacts-area {
+  display: flex;
+}
+
+.contacts-info {
+  max-width: 517px;
+}
+
+.contacts-title {
+  font-family: "Prompt";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36.5px;
+}
+
+.contacts-area-form {
+  margin-left: 103px;
+  max-width: 580px;
+}
+
+.contacts-input {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #6f7782;
+  display: block;
+  width: 580px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+.contacts-btn {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding: 12px 51px;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  border-color: #fff;
+  background: #08273d;
+  border-radius: 30px;
+}
+
+.footer {
+  background-color: #08273d;
+
+}
+.footer-information {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 47px;
+  
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.menu-footer {
+  font-family: "Prompt";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 0 30px;
+}
+
+.footer-logo {
+  width: 158px;
+}
+
+.line-footer {
+  border-bottom: 1px solid #fff;
+  opacity: 50%;
+  max-width: 1200px;
+  margin-top: 47px;
+}
+.footer-rest-information {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.footer-down-info {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 47px;
+}
+
+.link-footer-privacy
+{
+  text-decoration:underline;
+  margin-left: 15px;
+}
+
+.footer-soznet
+{
+  justify-content: space-between;
+}
+
+.footer-logo-face, .footer-logo-insta
+{
+margin-right: 20px;
+}
