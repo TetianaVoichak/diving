@@ -1,4 +1,4 @@
-#Diving Club
+# Diving Club
 
 **A simple and responsive website created as a web presentation for a diving club.**
 
